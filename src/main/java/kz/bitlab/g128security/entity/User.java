@@ -19,7 +19,7 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 @Entity
-@Table(name = "USERS")
+@Table(name = "USERS", schema = "PUBLIC")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
